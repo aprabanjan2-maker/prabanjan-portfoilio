@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Prabanjan A. - Student and Web Developer. Explore my skills, projects and portfolio.">
+
+    <title>Prabanjan A. | Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="scroll-progress" role="progressbar" aria-label="Page scroll progress"
+         aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <a href="#home" class="logo">
+            Prabanjan<span>.</span>
+        </a>
+
+        <button class="menu-toggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false">
+            ☰
+        </button>
+
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+            <p class="intro">HELLO, WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hi, I'm <span>Prabanjan A.</span ></h1>
+
+            <h2>Student &amp; <span id="typing-text" aria-live="off">Web Developer</span><span class="typing-cursor" aria-hidden="true">|</span></h2>
+
+            <p class="description">
+                I am a BCA student passionate about web development,
+                programming and Artificial Intelligence.
+                I enjoy learning new technologies and building
+                creative digital experiences.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">Explore My Work</a>
+
+                <a href="https://github.com/aprabanjan2-maker/prabanjan-portfoilio"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="btn secondary-btn">
+                    <span>GitHub ↗</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="profile">
+            <div class="profile-circle" aria-label="Prabanjan A. initials">PA</div>
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+
+        <p class="section-label">GET TO KNOW ME</p>
+        <h2>About <span>Me</span></h2>
+
+        <div class="about-card glass-card">
+            <div class="about-content">
+                <h3>I'm Prabanjan A.</h3>
+
+                <p>
+                    I am a Bachelor of Computer Applications (BCA) student
+                    interested in technology, software development and
+                    Artificial Intelligence.
+                </p>
+
+                <p>
+                    I enjoy developing websites, exploring programming
+                    languages and working on innovative projects.
+                    My goal is to improve my technical knowledge and
+                    become a skilled developer.
+                </p>
+
+                <div class="about-details">
+                    <p><strong>Name:</strong> Prabanjan A.</p>
+                    <p><strong>Education:</strong> BCA</p>
+                    <p><strong>Role:</strong> Student & Web Developer</p>
+                    <p><strong>Interests:</strong> AI, Web Development, Programming</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+
+        <p class="section-label">WHAT I KNOW</p>
+        <h2>My <span>Skills</span></h2>
+
+        <div class="skills-list">
+            <div class="skill-card">HTML5</div>
+            <div class="skill-card">CSS3</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">Python</div>
+            <div class="skill-card">Java</div>
+            <div class="skill-card">MongoDB</div>
+            <div class="skill-card">Git & GitHub</div>
+            <div class="skill-card">Flask</div>
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+
+        <p class="section-label">WHAT I'VE BUILT</p>
+        <h2>My <span>Projects</span></h2>
+
+        <div class="project-filters" role="group" aria-label="Filter projects">
+            <button class="filter-btn active" type="button" data-filter="all" aria-pressed="true">
+                All
+            </button>
+
+            <button class="filter-btn" type="button" data-filter="web" aria-pressed="false">
+                Web Development
+            </button>
+
+            <button class="filter-btn" type="button" data-filter="ai" aria-pressed="false">
+                AI Projects
+            </button>
+        </div>
+
+        <div class="projects-grid">
+
+            <article class="project-card glass-card" data-category="ai">
+                <div class="project-icon">✦</div>
+
+                <h3>AI Portfolio Reviewer</h3>
+
+                <p>
+                    An AI-powered web project designed to review
+                    portfolio websites and provide feedback on
+                    design, accessibility and content quality.
+                </p>
+
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>Flask</span>
+                    <span>AI</span>
+                </div>
+
+                <a
+                    href="https://github.com/aprabanjan2-maker/prabanjan-portfoilio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link">
+                    View GitHub ↗
+                </a>
+            </article>
+
+            <article class="project-card glass-card" data-category="web">
+                <div class="project-icon">⌘</div>
+
+                <h3>Personal Portfolio</h3>
+
+                <p>
+                    A responsive personal portfolio website
+                    showcasing my profile, skills, education
+                    and development projects.
+                </p>
+
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <a href="https://github.com/aprabanjan2-maker/prabanjan-portfoilio"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="project-link">
+                    View GitHub ↗
+                </a>
+            </article>
+
+        </div>
+
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+
+        <p class="section-label">MY ACADEMIC JOURNEY</p>
+        <h2>My <span>Education</span></h2>
+
+        <div class="education-card glass-card">
+            <div class="education-dot"></div>
+
+            <div>
+                <h3>Bachelor of Computer Applications (BCA)</h3>
+
+                <p>EXCEL COLLEGE FOR COMMERCE AND SCIENCE</p>
+
+                <p class="muted">
+                    Currently pursuing my studies and developing
+                    skills in computer applications and software development.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+
+        <p class="section-label">LET'S CONNECT</p>
+        <h2>Contact <span>Me</span></h2>
+
+        <p class="contact-description">
+            Have a project idea or want to connect?
+            Feel free to reach out!
+        </p>
+
+        <div class="contact-links">
+
+            <a href="https://github.com/aprabanjan2-maker/prabanjan-portfoilio"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="contact-card glass-card">
+                <span>⌘</span>
+                <div>
+                    <strong>GitHub</strong>
+                    <small>Explore my code</small>
+                </div>
+            </a>
+
+            <!-- Replace with your actual email -->
+            <a href="mailto:yourmail@example.com"
+               class="contact-card glass-card">
+                <span>✉</span>
+                <div>
+                    <strong>Email</strong>
+                    <small>Send me a message</small>
+                </div>
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Prabanjan A. All Rights Reserved.</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+    <button id="back-to-top" type="button" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
